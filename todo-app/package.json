@@ -1,0 +1,11 @@
+{
+  "name": "todo-app",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter frontend --filter backend dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "build": "pnpm --recursive build"
+  },
+  "packageManager": "pnpm@10.17.1"
+}
